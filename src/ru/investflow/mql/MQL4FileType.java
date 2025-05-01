@@ -11,7 +11,7 @@ public class MQL4FileType extends LanguageFileType {
 
     public static final MQL4FileType INSTANCE = new MQL4FileType();
 
-    public static final String SOURCE_FILE_EXTENSION = "mq5";
+    public static final String SOURCE_FILE_EXTENSION = "mq4";
 
     public static final String HEADER_FILE_EXTENSION = "mqh";
 

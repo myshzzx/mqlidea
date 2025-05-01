@@ -130,9 +130,9 @@ public class MQL4DocumentationProvider extends DocumentationProviderEx implement
         int anchorIdx = link.indexOf('#');
         String lang = getDocsLanguage();
         if (anchorIdx == -1) {
-            return "/mql/doc/" + lang + "/" + link + ".html";
+            return "mql/doc/" + lang + "/" + link + ".html";
         }
-        return "/mql/doc/" + lang + "/" + link.substring(0, anchorIdx) + ".html";
+        return "mql/doc/" + lang + "/" + link.substring(0, anchorIdx) + ".html";
     }
 
     @Nullable
